@@ -10,7 +10,7 @@
   const md = new MarkdownIt({ typographer: 1 });
 
   onMount(() => {
-    const socket = new WebSocket("ws://localhost:8000/chat/ws");
+    const socket = new WebSocket("ws://localhost:8686/chat/ws");
 
     socket.onopen = function () {
       console.log("opened");

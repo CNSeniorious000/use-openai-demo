@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.2.33",
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-node": "^1.2.2",
 		"@sveltejs/kit": "^1.11.0",
 		"@unocss/preset-icons": "^0.50.4",
 		"@unocss/preset-typography": "^0.50.4",
